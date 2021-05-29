@@ -409,8 +409,7 @@ body {
   overflow: hidden; }
   .fifth__image {
     filter: blur(1px);
-    -webkit-filter: blur(1px);
-    width: 100%; }
+    -webkit-filter: blur(1px); }
   .fifth__layer {
     background-color: rgba(61, 32, 31, 0.5);
     position: absolute;
