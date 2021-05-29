@@ -1,0 +1,21 @@
+//import colors
+@import "01_fundaments/colors/colors";
+//import typography
+@import "01_fundaments/typography/typography";
+//import spacers
+@import "01_fundaments/spacers/spacers";
+
+//import buttons
+@import "02_atoms/button/button";
+
+//import lists
+@import "03_molecules/lists/lists";
+@import "03_molecules/forms/forms";
+
+//import navbars
+@import "04_organisms/navbar/navbar";
+@import "04_organisms/content/content";
+@import "04_organisms/footer/footer";
+
+//import sections
+@import "05_pages/sections/sections";

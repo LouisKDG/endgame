@@ -1,0 +1,83 @@
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.first {
+  height: $sectionHeight;
+  margin: 0 auto;
+  background-color: $backgroundColor1;
+  padding: 15px;
+}
+
+.second {
+  height: $sectionHeight;
+  margin: 0 auto;
+  background-color: $backgroundColor2;
+  padding: 15px;
+}
+
+.third {
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+  margin-top: $margin1;
+  margin-bottom: $margin4;
+}
+
+.fourth {
+  height: 900px;
+  margin: 0 auto;
+  background-color: $backgroundColor2;
+  padding: 15px;
+}
+
+.fifth {
+  text-align: center;
+  position: relative;
+
+  &__image {
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+  }
+
+  &__layer {
+    background-color: $layerColor;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.sixth {
+  height: 900px;
+  margin: 0 auto;
+  background-color: $backgroundColor4;
+  padding: 15px;
+}
+
+@media (min-width: 603px) {
+  .fourth {
+    height: $sectionHeight;
+  }
+}
+
+@media (min-width: 1430px) {
+  .fifth__image {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1060px) {
+  .sixth {
+    height: 350px;
+  }
+}

@@ -1,0 +1,45 @@
+.first__navbar {
+  display: flex;
+  justify-content: space-between;
+
+  &__button {
+    display: none;
+  }
+
+  &__list {
+    display: none;
+  }
+
+  &__logo {
+    color: $textWhite;
+    margin: 0;
+  }
+
+  &__image {
+    margin: 0;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 380px) {
+
+}
+
+@media (min-width: 1060px) {
+  .first__navbar__button {
+    display: inline;
+  }
+
+  .first__navbar__list {
+    display: inline;
+  }
+
+  .first__navbar__image {
+    display: none;
+  }
+
+  .first__navbar {
+    width: $desktopSectionWidth;
+    margin: 0 auto;
+  }
+}

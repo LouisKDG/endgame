@@ -1,0 +1,17 @@
+.footer {
+  background-color: $backgroundColor5;
+  padding: 20px;
+  text-align: center;
+
+  &__tag {
+    max-width: 250px;
+    margin: 0 auto;
+    color: $textWhite50;
+  }
+}
+
+@media (min-width: 1060px) {
+  .footer__tag {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,11 @@
+.first__navbar {
+  display: flex;
+  justify-content: space-between; }
+  .first__navbar__button {
+    visibility: hidden; }
+  .first__navbar__list {
+    visibility: hidden; }
+
+@media (min-width: 375.1px) {
+  .first__navbar__button {
+    visibility: visible; } }

@@ -1,0 +1,47 @@
+.first__navbar__list {
+  list-style: none;
+}
+
+.first__navbar__item {
+  display: inline;
+  padding: $navbarPadding;
+}
+
+.first__navbar__item a {
+  text-decoration: none;
+  color: $textWhite;
+}
+
+.fourth__content__list {
+  list-style: none;
+  padding: 0;
+}
+
+.fourth__content__item__image {
+  margin-right: $margin1;
+}
+
+.fourth__content__item {
+  margin-bottom: $margin1;
+}
+
+.sixth__content__right__list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: $margin1;
+}
+
+.sixth__content__right__item {
+  color: $textWhite50;
+  margin-bottom: 5px;
+}
+
+.sixth__content__list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sixth__content__item {
+  display: inline;
+  padding-right: 15px;
+}

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Sans:wght@400;700&display=swap");
+h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 72px; }
+
+h2 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 56px; }
+
+h3 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 40px; }
+
+h4 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 24px; }
+
+h5 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px; }
+
+.label {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase; }
+
+.textBig {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 20px; }
+
+.text {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold; }
+
+.textGray {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px; }
+
+.textSmall {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  font-weight: bold; }
+
+.first__navbar__button {
+  width: 170px;
+  height: 48px;
+  color: #FFFFFF;
+  background-color: #FF8482;
+  border: 2px solid rgba(255, 255, 255, 0.5); }

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Sans:wght@400;700&display=swap');
+
+$h1FontSize: 72px;
+$h2FontSize: 49px;
+$h3FontSize: 40px;
+$h4FontSize: 24px;
+$h5FontSize: 20px;
+
+$labelFontSize: 12px;
+$textBigFontSize: 20px;
+$textFontSize: 16px;
+$textSmallFontSize: 12px;
+
+h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: $h1FontSize;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: $h2FontSize;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: $h3FontSize;
+  margin: 0;
+}
+
+h4 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: $h4FontSize;
+  margin: 0;
+}
+
+h5 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: $h5FontSize;
+  margin: 0;
+}
+
+.label {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: $labelFontSize;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.textBig {
+  font-family: 'DM Sans', sans-serif;
+  font-size: $textBigFontSize;
+  margin: 0;
+}
+
+.text {
+  font-family: 'DM Sans', sans-serif;
+  font-size: $textFontSize;
+  font-weight: bold;
+  margin: 0;
+}
+
+.textGray {
+  font-family: 'DM Sans', sans-serif;
+  font-size: $textFontSize;
+  margin: 0;
+  color: $textBlack50;
+}
+
+.textSmall {
+  font-family: 'DM Sans', sans-serif;
+  font-size: $textSmallFontSize;
+  font-weight: bold;
+  margin: 0;
+}
+
+.logo {
+  color: $textWhite;
+  margin: 0;
+}
+
+
+
