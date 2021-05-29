@@ -41,6 +41,7 @@ body {
 .fifth {
   text-align: center;
   position: relative;
+  overflow: hidden;
 
   &__image {
     filter: blur(1px);
