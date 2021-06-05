@@ -99,7 +99,8 @@ h5 {
   border: 1px solid #BE6361; }
 
 .first__navbar__list {
-  list-style: none; }
+  list-style: none;
+  margin-left: 25px; }
 
 .first__navbar__item {
   display: inline;
@@ -135,6 +136,9 @@ h5 {
 .sixth__content__item {
   display: inline;
   padding-right: 15px; }
+
+.hidden {
+  display: none; }
 
 .first__content__input {
   width: 95%;

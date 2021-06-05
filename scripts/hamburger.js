@@ -5,13 +5,14 @@ var $window = $(window);
 //Toggles the .open class with every click on the hamburger menu
 hamburger.click(function () {
     navLinks.toggleClass('open');
+    $('.signup').removeClass('hidden');
 })
 
 //Deletes the .open when the hamburger menu is not necessary
 $window.resize(function(){
 
     if( $window.width() > 1060) $(".first__navbar__list").removeClass('open');
-
+    if( $window.width() > 1060) $(".signup").addClass('hidden');
 })
 
 $window.scroll(function() {

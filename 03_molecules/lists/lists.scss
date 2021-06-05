@@ -1,5 +1,6 @@
 .first__navbar__list {
   list-style: none;
+  margin-left: 25px;
 }
 
 .first__navbar__item {
@@ -44,4 +45,8 @@
 .sixth__content__item {
   display: inline;
   padding-right: 15px;
+}
+
+.hidden {
+  display: none;
 }
