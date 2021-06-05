@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/endgame.iml" filepath="$PROJECT_DIR$/.idea/endgame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../flyoutmenu2/.idea/flyoutmenu2.iml" filepath="$PROJECT_DIR$/../flyoutmenu2/.idea/flyoutmenu2.iml" />
       <module fileurl="file://$PROJECT_DIR$/../frontend_week1/.idea/frontend_week1.iml" filepath="$PROJECT_DIR$/../frontend_week1/.idea/frontend_week1.iml" />
     </modules>
   </component>

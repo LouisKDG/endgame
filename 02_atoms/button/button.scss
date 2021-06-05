@@ -1,35 +1,29 @@
-.first__button {
+.btn {
   width: $buttonWidth;
   height: $buttonHeight;
-  color: $textWhite;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.lightred-btn {
   background-color: $backgroundColor1;
   border: 2px solid $textWhite50;
 }
 
-.first__button:hover {
-  cursor: pointer;
-}
-
-.second__button {
-  border: 3px solid $submitButtonColor;
-  width: $buttonWidth;
-  height: $buttonHeight;
+.white-btn {
   background-color: $backgroundColor3;
+  border: 3px solid $submitButtonColor;
 }
 
-.third__button {
-  border: none;
-  width: $buttonWidth;
-  height: $buttonHeight;
+.red-btn {
   background-color: $backgroundColor4;
-  color: $textWhite;
+  border: none;
   border-radius: 3px;
 }
 
-.fourth__button {
-  width: $buttonWidth;
-  height: $buttonHeight;
-  color: $textPrimary;
+.beige-btn {
   background-color: $backgroundColor2;
   border: 1px solid $textPrimary;
 }

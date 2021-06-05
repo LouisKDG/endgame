@@ -1,4 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Sans:wght@400;700&display=swap");
+.white50 {
+  color: rgba(255, 255, 255, 0.5); }
+
+.white {
+  color: #FFFFFF; }
+
+.black50 {
+  color: rgba(51, 51, 51, 0.5); }
+
+.black {
+  color: #333333; }
+
+.red {
+  color: #BE6361; }
+
 h1 {
   font-family: 'Alfa Slab One', cursive;
   font-size: 72px;
@@ -60,34 +75,26 @@ h5 {
   color: #FFFFFF;
   margin: 0; }
 
-.first__button {
+.btn {
   width: 170px;
-  height: 48px;
-  color: #FFFFFF;
+  height: 48px; }
+  .btn:hover {
+    cursor: pointer; }
+
+.lightred-btn {
   background-color: #FF8482;
   border: 2px solid rgba(255, 255, 255, 0.5); }
 
-.first__button:hover {
-  cursor: pointer; }
+.white-btn {
+  background-color: #FFFFFF;
+  border: 3px solid #2B2B2B; }
 
-.second__button {
-  border: 3px solid #2B2B2B;
-  width: 170px;
-  height: 48px;
-  background-color: #FFFFFF; }
-
-.third__button {
-  border: none;
-  width: 170px;
-  height: 48px;
+.red-btn {
   background-color: #BE6361;
-  color: #FFFFFF;
+  border: none;
   border-radius: 3px; }
 
-.fourth__button {
-  width: 170px;
-  height: 48px;
-  color: #BE6361;
+.beige-btn {
   background-color: #FFF2DD;
   border: 1px solid #BE6361; }
 
@@ -157,7 +164,21 @@ h5 {
     margin: 0; }
   .first__navbar__image {
     margin: 0;
-    cursor: pointer; }
+    cursor: pointer;
+    z-index: 2; }
+  .first__navbar__close {
+    display: none; }
+
+.open {
+  border: 5px solid #A85756;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 0;
+  top: -2%;
+  transform: translate(0%, 0%);
+  padding: 0;
+  background-color: #FF8482; }
 
 @media (min-width: 1060px) {
   .first__navbar__button {
@@ -379,13 +400,11 @@ body {
   padding: 0; }
 
 .first {
-  height: 768px;
   margin: 0 auto;
   background-color: #FF8482;
   padding: 15px; }
 
 .second {
-  height: 768px;
   margin: 0 auto;
   background-color: #FFF2DD;
   padding: 15px; }
@@ -398,7 +417,6 @@ body {
   margin-bottom: 40px; }
 
 .fourth {
-  height: 900px;
   margin: 0 auto;
   background-color: #FFF2DD;
   padding: 15px; }
@@ -419,19 +437,10 @@ body {
     height: 100%; }
 
 .sixth {
-  height: 900px;
   margin: 0 auto;
   background-color: #BE6361;
   padding: 15px; }
 
-@media (min-width: 603px) {
-  .fourth {
-    height: 768px; } }
-
 @media (min-width: 1430px) {
   .fifth__image {
     width: 100%; } }
-
-@media (min-width: 1060px) {
-  .sixth {
-    height: 350px; } }

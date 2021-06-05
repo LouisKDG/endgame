@@ -18,14 +18,12 @@ body {
 }
 
 .first {
-  height: $sectionHeight;
   margin: 0 auto;
   background-color: $backgroundColor1;
   padding: 15px;
 }
 
 .second {
-  height: $sectionHeight;
   margin: 0 auto;
   background-color: $backgroundColor2;
   padding: 15px;
@@ -40,7 +38,6 @@ body {
 }
 
 .fourth {
-  height: 900px;
   margin: 0 auto;
   background-color: $backgroundColor2;
   padding: 15px;
@@ -67,7 +64,6 @@ body {
 }
 
 .sixth {
-  height: 900px;
   margin: 0 auto;
   background-color: $backgroundColor4;
   padding: 15px;
@@ -75,7 +71,6 @@ body {
 
 @media (min-width: 603px) {
   .fourth {
-    height: $sectionHeight;
   }
 }
 
@@ -87,6 +82,5 @@ body {
 
 @media (min-width: 1060px) {
   .sixth {
-    height: 350px;
   }
 }
